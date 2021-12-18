@@ -59,7 +59,7 @@ export default{
             }else{
                 createMessage({
                     dialogVisible:true,
-                    time:1000,
+                    time:2000,
                     msg:'请输入内容',
                     states:'error'
                 })

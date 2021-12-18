@@ -34,9 +34,8 @@ export default{
             type:String
         }
     },
-    setup(prop,context){
+    setup(context){
         let texts = ref('1111')
-        console.log(prop,context)
         const confirm = () => {
             context.emit('confirm')
         };
