@@ -19,7 +19,6 @@ export default {
     setup(props,context){
         console.log(props,context);
         const chexkboxChange = (e) => {
-            console.log(e.target.value,`props.value`)
             context.emit('update:value',e.target.value)
         }
         return {

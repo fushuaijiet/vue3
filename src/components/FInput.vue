@@ -46,7 +46,6 @@ export default {
         context.emit('update:value','')
     }
 
-    console.log(props.value,`value`)
      return {
        toggle,
        pasType,
